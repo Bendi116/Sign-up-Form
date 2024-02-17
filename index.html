@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
-<title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <title>Sign-up Form</title>
 </head>
 <body>
 <div class="container">
@@ -67,11 +67,11 @@
                 <div class="passwords">
                     <div class="password">
                         <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" class="error" placeholder="password" required>
+                        <input type="password" id="password" name="password" class="error" placeholder="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                     </div>
                     <div class="confirm-password">
                         <label for="confirm-password">Confirm Password:</label>
-                        <input type="password" id="confirm-password" name="confirm-password" class="error" placeholder="password" required>
+                        <input type="password" id="confirm-password" name="confirm-password" class="error" placeholder="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
                     </div>
                 </div>
             </div>
