@@ -73,7 +73,7 @@ body{
     padding: 200px 0;
 
     /* background: linear-gradient(#000000, #ccff15b5,10deg); */
-    background: linear-gradient( rgba(0,0,0,1) 0%, rgba(82,182,246,1) 35%, rgba(106,101,0,1) 100%);
+    background: linear-gradient(rgba(82,182,246,1) ,#000000 80%);
 }
 
 .sign-up-text{    
