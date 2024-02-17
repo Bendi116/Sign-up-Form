@@ -24,9 +24,12 @@ p, h1, h2, h3, h4, h5, h6 {
   }
 
 /* My css */
+
+
 body{
     height: 100vh;
     width: 100vw;
+    font-family: "Anta",sans-serif;
 }
 .container{
     height: 100%;
@@ -40,6 +43,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1706883375817-86bc2c55a0c4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size:cover;
     background-repeat: no-repeat;
+    background-position: right bottom;
 
     
 
@@ -48,7 +52,7 @@ body{
 .logo{
     width: 30rem;
     height: 30rem;
-    margin: 160px auto;
+    margin: 140px auto;
     
    
     background-image: url(https://seeklogo.com/images/M/mgi-car-service-logo-37E9C692BC-seeklogo.com.png);
@@ -59,5 +63,26 @@ body{
 
 .content{
     flex-grow: 3;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+
+    padding: 200px 0;
+
+    /* background: linear-gradient(#000000, #ccff15b5,10deg); */
+    background: linear-gradient( rgba(0,0,0,1) 0%, rgba(82,182,246,1) 35%, rgba(106,101,0,1) 100%);
+}
+
+.sign-up-text{
+    flex: 1;
+}
+
+.sign-up-form{
+    flex: 1;
+    background-color: rgba(254, 254, 254, 0.379);
+
+}
+
+.sign-up-btns{
+    flex: 1;
+
 }
