@@ -29,7 +29,10 @@ p, h1, h2, h3, h4, h5, h6 {
 body{
     height: 100vh;
     width: 100vw;
+
     font-family: "Anta",sans-serif;
+    color: #c7c1c1;
+    font-size: 3rem;
 }
 .container{
     height: 100%;
@@ -62,9 +65,10 @@ body{
 }
 
 .content{
-    flex-grow: 3;
+    flex-grow: 1.5;
     display: flex;
     flex-direction: column;
+    gap: 5rem;
 
     padding: 200px 0;
 
@@ -72,13 +76,22 @@ body{
     background: linear-gradient( rgba(0,0,0,1) 0%, rgba(82,182,246,1) 35%, rgba(106,101,0,1) 100%);
 }
 
-.sign-up-text{
+.sign-up-text{    
     flex: 1;
+    padding-left: 10rem;
 }
 
+.sign-up-text>p{
+    max-width: 1000px;
+    
+}
+
+    
+
+
 .sign-up-form{
-    flex: 1;
-    background-color: rgba(254, 254, 254, 0.379);
+    flex: 2;
+    background-color: rgba(0, 0, 0, 0.136);
 
 }
 
