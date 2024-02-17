@@ -25,16 +25,46 @@
         
         <form action="" method="get">
             <legend>Let's do this.</legend>
-            <div class="names"><label >First Name:<input type="text" name="first-name"></label>
-                <label >Last Name:<input type="text" id="last-name"></label>
-            </div>
-            <div class="datas">
-                <label >Email:<input type="email" id="email"></label>
-                <label >Phone Number:<input type="tel" id="phone-number"></label>
-            </div>
-            <div class="passwords">
-                <label >Password:<input type="password" id="password"></label>
-                <label >Confirm Password:<input type="password" id="confirm-password"></label>
+            <div class="form-div">
+                <div class="names">
+                    <div class="first-name">
+                        <label for="first-name">First Name:</label>
+                        <input type="text"
+                         id="first-name"
+                         name="first-name">
+                    </div>
+                     <div class="last-name">
+                         <label for="last-name">Last Name:</label>
+                        <input type="text"
+                         id="last-name"
+                          name="last-name">
+                     </div>
+                </div>
+                    <div class="datas">
+                        <div class="email">
+                            <label for="email">Email:</label>
+                            <input type="email"
+                            id="email"
+                            name="email">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone-number">Phone Number:</label>
+                            <input type="tel"
+                            id="phone-number"
+                             name="phone-number">
+                        </div>
+                    </div>
+                
+                <div class="passwords">
+                    <div class="password">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm Password:</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </div>
+                </div>
             </div>
             
         </form>
